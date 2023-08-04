@@ -5,7 +5,7 @@ namespace CID\AuditTrails;
 use Illuminate\Support\Fluent;
 use Illuminate\Support\ServiceProvider;
 
-class AuditTrailServiceProvider extends ServiceProvider
+class AuditorServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
